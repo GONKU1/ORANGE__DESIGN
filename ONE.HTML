@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORANGE DESIGN</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .dialer-button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007BFF;
+          color: #FFF;
+          text-decoration: none;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+      body {
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Ensure the content covers the full viewport height */
+        margin: 0; /* Remove default margin for the body */
+        padding: 0; /* Remove default padding for the body */
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="company-name">ORANGE DESIGN</h1>
+        <img src="company-photo.jpg" alt="Company Photo" class="company-photo">
+        <div class="opening-hours">
+            <h2>Business Hours:</h2>
+            <select id="dropdown" onchange="updateSelection(this.value)">
+                <option>Monday: 9:00 AM - 6:00 PM</option>
+                <option>Tuesday: 9:00 AM - 6:00 PM</option>
+                <option>Thursday: 9:00 AM - 6:00 PM</option>
+                <option>Friday: 9:00 AM - 6:00 PM</option>
+                <option>Saturday: 9:00 AM - 6:00 PM</option>
+                <option>Sunday: 9:00 AM - 6:00 PM</option>
+            </select>
+        </div>
+        <div class="location">
+            <h2>Location:</h2>
+            <p>46-C,DSIDC FACTORY COMPLEX ,NEAR SULTANPURI POLICE STATION </p>
+            <p>SULTANPURI,NEW DELHI-110086</p>
+            <P>INDIA</P>
+        </div>
+        <div class="contact-details">
+            <h2>Contact Details:</h2>
+            <p>Phone:+91 9891389507</p>
+            <p>Email: </p>
+        </div>
+        <div class="social-media-links">
+            <h2>Social Media Links:</h2>
+            <ul>
+                <li><a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=+91 9891389507 target="_blank">Chat on WhatsApp</a>
+                
+  
+            </ul>
+        </div>
+        <div class="contact-button">
+            <h1>CONTACT OPTION</h1>
+            <a class="dialer-button" href="tel:+91 9891389507">Call Now</a>
+        </div>
+        <br>
+        <div>
+        <a class="dialer-button" href="mailto:recipient@example.com">Send Email</a>
+    </div>
+    </div>
+</body>
+</html>
+
